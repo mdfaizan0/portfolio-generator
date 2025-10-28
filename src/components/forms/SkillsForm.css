@@ -1,0 +1,81 @@
+.skills-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skills-form h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+  color: #222;
+}
+
+.form-subtext {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  min-height: 45px;
+  background: #fdfdfd;
+}
+
+.skill-capsule {
+  background-color: #f0f2f6;
+  border-radius: 20px;
+  padding: 0.4rem 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.skill-capsule span {
+  color: #333;
+}
+
+#remove-skill {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #666;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+#remove-skill:hover {
+  color: crimson;
+}
+
+.skills-form input {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.skills-form input:focus {
+  border-color: #0077ff;
+}
+
+.error {
+  border-color: crimson !important;
+}
+
+.error-border {
+  border-color: crimson !important;
+}
+
+.error-text {
+  font-size: 0.85rem;
+  color: crimson;
+  margin-top: -0.3rem;
+}

@@ -1,0 +1,227 @@
+/* Container layout */
+.multi-step-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 650px;
+  margin: 2rem auto;
+  background: #ffffff;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.multi-step-form p {
+  align-self: flex-end;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* Headings */
+.form-title {
+  text-align: center;
+  color: #333;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.3px;
+}
+
+/* Form groups */
+.form-section {
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.multi-step-form input {
+  padding: 0.65rem 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.multi-step-form .multi-step-form input:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.15);
+}
+
+.input-error {
+  border-color: #e74c3c;
+  background-color: #fff7f7;
+}
+
+.error-text {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+/* Navigation buttons */
+.form-navigation {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.multi-step-form button {
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.multi-step-form button:hover {
+  transform: translateY(-1px);
+}
+
+/* Primary (Next / Submit) */
+.multi-step-form button:not(:first-child) {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.multi-step-form button:not(:first-child):hover {
+  background-color: #3c7bd4;
+}
+
+/* Secondary (Back) */
+.multi-step-form button:first-child {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.multi-step-form button:first-child:hover {
+  background-color: #e4e4e4;
+}
+
+/* --- Capsule Navigator --- */
+.capsule-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.capsule-step {
+  padding: 0.45rem 1.1rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: #eaeaea;
+  color: #555;
+  transition: all 0.3s ease;
+}
+
+.capsule-step.active {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.capsule-step.completed {
+  background-color: #7cb9f0;
+  color: white;
+}
+
+.capsule-step:hover {
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .multi-step-form {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .form-navigation {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+.about-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-top: 1rem;
+}
+
+.about-form textarea {
+  min-height: 100px;
+  resize: vertical;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.location-inputs {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.add-social-btn {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-social-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.social-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+  padding: 0.5rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background: #fafafa;
+}
+
+.delete-social-btn {
+  align-self: flex-start;
+  padding: 0.3rem 0.6rem;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.delete-social-btn:hover {
+  background-color: #c0392b;
+}

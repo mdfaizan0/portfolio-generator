@@ -1,0 +1,309 @@
+{
+  "portfolios": [
+    {
+      "id": 1,
+      "template": "template1",
+      "professionalInfo": {
+        "name": "Alex Johnson",
+        "title": "Senior Web Developer",
+        "tagline": "Building fast, scalable web experiences.",
+        "profileImage": "/images/alex_profile.jpg"
+      },
+      "aboutMe": {
+        "bio": "A passionate web developer with 8+ years of experience specializing in full-stack JavaScript development. I thrive on solving complex technical challenges and delivering high-quality code. When I'm not coding, I enjoy hiking and photography.",
+        "email": "alex.johnson@example.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "socials": [
+          "https://linkedin.com/in/alexjohnson",
+          "https://github.com/alex-dev",
+          "https://twitter.com/alex_codes"
+        ]
+      },
+      "skills": [
+        "React",
+        "Node.js & Express",
+        "TypeScript"
+      ],
+      "services": [
+        {
+          "title": "Full-Stack Development",
+          "description": "End-to-end development of web applications using modern JavaScript frameworks."
+        },
+        {
+          "title": "API Design & Integration",
+          "description": "Designing and implementing robust, RESTful and GraphQL APIs for various applications."
+        },
+        {
+          "title": "Technical Consulting",
+          "description": "Providing expert advice on architecture, performance, and best practices."
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "E-commerce Platform Redesign",
+          "image": "/images/project_ecommerce.jpg",
+          "description": "Modernized an existing e-commerce site, resulting in a 30% speed increase."
+        },
+        {
+          "title": "SaaS Dashboard Interface",
+          "image": "/images/project_saas.jpg",
+          "description": "Developed a complex data visualization dashboard for a B2B SaaS product."
+        },
+        {
+          "title": "Mobile-First Blog Engine",
+          "image": "/images/project_blog.jpg",
+          "description": "Built a custom, responsive blog engine focused on SEO and performance."
+        }
+      ],
+      "testimonials": [
+        {
+          "quote": "Alex's work was instrumental in launching our product on time and under budget.",
+          "author": "Sarah Chen, CEO of TechCorp"
+        }
+      ],
+      "blog": {
+        "title": "Optimizing React Performance with Hooks",
+        "summary": "A deep dive into using custom hooks and memoization for better application speed."
+      },
+      "contact": {
+        "messageText": "Let's build something amazing together!",
+        "email": "alex.johnson@example.com",
+        "phone": "+1 (555) 123-4567"
+      }
+    },
+    {
+      "id": 2,
+      "template": "template2",
+      "professionalInfo": {
+        "name": "Maria Rodriguez",
+        "title": "Brand & UI/UX Designer",
+        "tagline": "Designing experiences that delight and convert.",
+        "profileImage": "/images/maria_profile.png"
+      },
+      "aboutMe": {
+        "bio": "A creative designer passionate about human-centered design principles. I focus on bridging the gap between user needs and business goals through thoughtful and beautiful interfaces. My tools of choice are Figma, Sketch, and Adobe Creative Suite.",
+        "email": "maria.rodriguez@designstudio.com",
+        "phone": "+44 20 7946 0958",
+        "location": "London, UK",
+        "socials": [
+          "https://dribbble.com/mariadesigns",
+          "https://behance.net/mariarodriguez",
+          "https://instagram.com/maria_ux"
+        ]
+      },
+      "skills": [
+        "UI/UX Design",
+        "Figma Prototyping",
+        "Brand Identity"
+      ],
+      "services": [
+        {
+          "title": "User Interface Design",
+          "description": "Creating visually stunning and intuitive interfaces for web and mobile applications."
+        },
+        {
+          "title": "Wireframing & Prototyping",
+          "description": "Mapping out user flows and building interactive prototypes for testing and validation."
+        },
+        {
+          "title": "Brand Strategy",
+          "description": "Developing cohesive and compelling brand identities, including logo and style guides."
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "Financial App Mobile Design",
+          "image": "/images/design_finance.jpg",
+          "description": "Designed a secure and simple-to-use mobile banking application."
+        },
+        {
+          "title": "Non-Profit Website Redesign",
+          "image": "/images/design_nonprofit.jpg",
+          "description": "Improved the donation conversion rate by 45% through a modern, accessible redesign."
+        },
+        {
+          "title": "Startup Brand Identity Kit",
+          "image": "/images/design_startup.png",
+          "description": "Created a complete visual identity, including a logo, color palette, and typography."
+        }
+      ],
+      "testimonials": [
+        {
+          "quote": "Maria's dedication to user research is unmatched. She truly transformed our product's usability.",
+          "author": "David Kim, Product Manager at Innovate Ltd."
+        },
+        {
+          "quote": "The new branding is exactly what we needed—modern, clean, and memorable.",
+          "author": "Elena Velez, Founder of Aura Coffee"
+        }
+      ],
+      "blog": {
+        "title": "The Power of Micro-Animations in UI Design",
+        "summary": "Exploring how subtle motion can drastically improve user engagement and perceived performance."
+      },
+      "contact": {
+        "messageText": "Ready to bring your vision to life?",
+        "email": "maria.rodriguez@designstudio.com",
+        "phone": "+44 20 7946 0958"
+      }
+    },
+    {
+      "template": "template1",
+      "professionalInfo": {
+        "name": "Md Faizan",
+        "title": "Full Stack Developer",
+        "tagline": "Building Better Web.",
+        "profileImage": "https://avatars.githubusercontent.com/u/176121612?v=4"
+      },
+      "aboutMe": {
+        "bio": "A Full Stack Developer specializing in the MERN stack. I love building clean, efficient, and engaging web experiences.",
+        "email": "faizanm78692@gmail.com",
+        "phone": "+919748075247",
+        "location": "Kolkata, West Bengal",
+        "socials": [
+          {
+            "title": "GitHub",
+            "link": "https://github.com/mdfaizan0"
+          },
+          {
+            "title": "LinkedIn",
+            "link": "https://linkedin.com/in/mdfaizan16"
+          }
+        ]
+      },
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS",
+        "MERN",
+        ""
+      ],
+      "services": [
+        {
+          "title": "Full Stack Web Development",
+          "description": "I build full-stack websites, frontend to backend."
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "ShoppyGlobe",
+          "image": "",
+          "description": "ShoppyGlobe is a full-stack MERN (MongoDB, Express, React, Node.js) e-commerce web application."
+        },
+        {
+          "title": "YouTube Clone",
+          "image": "",
+          "description": "YouTube Clone is a full-stack MERN (MongoDB, Express, React, Node.js) video streaming platform inspired by YouTube."
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Internshala",
+          "message": "Md was assessed at regular intervals throughout the program. He demonstrated the required discipline, rigour, intellect and skills to graduate from the program and earn this certificate."
+        }
+      ],
+      "blog": {
+        "title": "",
+        "summary": ""
+      },
+      "contact": {
+        "messageText": "Have something? Let's talk.",
+        "email": "faizanm78692@gmail.com",
+        "phone": "9748075247"
+      },
+      "id": 3
+    },
+    {
+      "template": "template2",
+      "professionalInfo": {
+        "name": "Aryan Ansari",
+        "title": "Java Developer",
+        "tagline": "Complex system design, is my passion.",
+        "profileImage": "https://images.contactout.com/profiles/5de14e444cd1e6910c744d41c77aa267"
+      },
+      "aboutMe": {
+        "bio": "I’m a passionate Java Developer with over 4 years of experience building efficient, maintainable, and secure backend applications. I specialize in designing REST APIs, managing databases, and optimizing application performance. I love solving real-world problems through clean and well-structured code.",
+        "email": "aryan.ansari@example.com",
+        "phone": "+91 98765 43210",
+        "location": "Pune, Maharashta",
+        "socials": [
+          {
+            "title": "LinkedIn",
+            "link": "https://linkedin.com/in/aryanansari"
+          },
+          {
+            "title": "Github",
+            "link": "https://github.com/aryan-java"
+          },
+          {
+            "title": "Twitter",
+            "link": "https://twitter.com/aryan_codes"
+          }
+        ]
+      },
+      "skills": [
+        "Core Java",
+        "Spring Boot",
+        "Hibernate",
+        "RESTful APIs",
+        "MySQL & MongoDB"
+      ],
+      "services": [
+        {
+          "title": "Backend Development",
+          "description": "Designing and implementing scalable backend systems using Spring Boot and Java."
+        },
+        {
+          "title": "API Design & Integration",
+          "description": "Creating and integrating RESTful APIs with secure authentication and clean architecture."
+        },
+        {
+          "title": "Database Optimization",
+          "description": "Optimizing relational and NoSQL databases for performance and reliability."
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "Banking Microservices Suite",
+          "image": "https://www.oracle.com/a/ocom/img/rc24-domaindriven-design-is-at-the-core-of-composable-banking-1.jpg",
+          "description": "Built a microservices-based architecture for a digital banking platform, featuring secure authentication and inter-service communication."
+        },
+        {
+          "title": "E-Learning Platform Backend",
+          "image": "https://theappsolutions.com/wp-content/uploads/images/articles/source/tech-stack-e-learning-platform/elearning-marketplace-architecture-components.png",
+          "description": "Implemented course, user, and session management modules for a scalable e-learning system using Java and MongoDB."
+        },
+        {
+          "title": "Inventory Management System",
+          "image": "https://www.netsuite.com/portal/assets/img/products-redwood/erp/warehouse-fulfillment/thmb-1180-inventory-management.jpg",
+          "description": "Developed a full-stack inventory management solution using Spring Boot and React, improving stock tracking efficiency by 40%."
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Ritika Shah, CTO at CodeCloud",
+          "message": "Aryan’s work ethic and deep understanding of Java frameworks made a significant impact on our backend performance."
+        },
+        {
+          "name": "Manoj Kumar, Project Manager at DevHaus",
+          "message": "Reliable, efficient, and detail-oriented — Aryan delivers high-quality code every single time."
+        },
+        {
+          "name": "",
+          "message": ""
+        }
+      ],
+      "blog": {
+        "title": "Building Scalable APIs with Spring Boot",
+        "summary": "A comprehensive guide on designing and scaling REST APIs with Spring Boot, covering performance optimization and security."
+      },
+      "contact": {
+        "messageText": "Have a project or an idea? Let’s connect and make it happen!",
+        "email": "aryan.ansari@example.com",
+        "phone": "9876543210"
+      },
+      "id": 4
+    }
+  ]
+}

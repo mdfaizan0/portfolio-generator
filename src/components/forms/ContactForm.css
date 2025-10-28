@@ -1,0 +1,20 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+input.invalid {
+  border: 1px solid #e53e3e;
+}
+
+.error {
+  color: #e53e3e;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,87 @@
+.portfolio-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.portfolio-form h2 {
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.form-subtext {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.add-btn {
+  align-self: flex-start;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid #0077ff;
+  border-radius: 6px;
+  background: #0077ff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.add-btn:disabled {
+  background: #ccc;
+  border-color: #bbb;
+  cursor: not-allowed;
+}
+
+.add-btn:hover:not(:disabled) {
+  background: #005fcc;
+}
+
+.portfolio-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fdfdfd;
+  position: relative;
+}
+
+.portfolio-block input {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.portfolio-block input:focus {
+  border-color: #0077ff;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  background: none;
+  border: none;
+  color: #777;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.delete-btn:hover {
+  color: crimson;
+}
+
+.error {
+  border-color: crimson !important;
+}
+
+.error-text {
+  font-size: 0.85rem;
+  color: crimson;
+  margin-top: -0.3rem;
+}

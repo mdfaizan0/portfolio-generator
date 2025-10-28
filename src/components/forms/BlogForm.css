@@ -1,0 +1,26 @@
+.blog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.blog-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+input.invalid {
+  border: 1px solid #e53e3e;
+}
+
+.error {
+  color: #e53e3e;
+  font-size: 0.8rem;
+}
+
+.blog-form-tip {
+    font-size: 14px;
+    color: #7e7e7e;
+    text-align: center;
+}

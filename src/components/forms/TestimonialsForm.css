@@ -1,0 +1,47 @@
+.testimonials-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.testimonials-block {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  background: #fafafa;
+}
+
+.add-btn, .delete-btn {
+  background: #2b6cb0;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.add-btn:disabled {
+  background: #a0aec0;
+  cursor: not-allowed;
+}
+
+.delete-btn {
+  background: #e53e3e;
+}
+
+.delete-btn:hover {
+  background: #c53030;
+}
+
+input.invalid {
+  border: 1px solid #e53e3e;
+}
+
+.error {
+  color: #e53e3e;
+  font-size: 0.8rem;
+}
